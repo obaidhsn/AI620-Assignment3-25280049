@@ -1,0 +1,9 @@
+psycopg2-binary==2.9.11
+python-dotenv==1.2.2
+pandas==3.0.2
+great_expectations==1.15.2
+joblib==1.5.3 
+scikit-learn==1.8.0
+fastapi==0.135.3
+uvicorn==0.44.0
+streamlit==1.56.0

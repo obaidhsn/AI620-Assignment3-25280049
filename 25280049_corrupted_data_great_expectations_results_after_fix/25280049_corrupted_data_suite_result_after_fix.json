@@ -1,0 +1,688 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id"
+        },
+        "meta": {},
+        "id": "d21f964b-9d6e-4443-bd1c-fea2fc6b942a",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "0a218877-73c5-4c2e-be79-7040dd83cfa1",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id"
+        },
+        "meta": {},
+        "id": "14ae139e-be92-4cbd-9385-17330c31ad5b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id"
+        },
+        "meta": {},
+        "id": "58d10495-7f65-4d72-a3ff-08d06d68e1af",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "9cc0fdc0-bf67-4941-bcaf-fd5bb6e5f0e6",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id"
+        },
+        "meta": {},
+        "id": "a5a2ee65-9c24-4f4f-b8df-2e8d08363827",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id"
+        },
+        "meta": {},
+        "id": "4817253c-250d-4303-ba42-22c94b0e41da",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "6cad73d6-f438-4b32-be33-7a4bd5265a6a",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id"
+        },
+        "meta": {},
+        "id": "ae723922-e58b-4662-8cea-95fe607e0608",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_ts",
+          "type_": "datetime64[ns]"
+        },
+        "meta": {},
+        "id": "4bfda7d6-5d85-4a27-b9f8-a55ea041639c",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "datetime64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_ts"
+        },
+        "meta": {},
+        "id": "f3fffa0e-3acc-44e3-a0ef-b953c9763c1b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "quantity",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "67114a71-c39d-49ea-83b8-0200fe934103",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "quantity"
+        },
+        "meta": {},
+        "id": "7476fc04-6a08-48eb-8a32-6fef155e5b8b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "269beb93-533e-4415-9c73-d5022357f443",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount"
+        },
+        "meta": {},
+        "id": "806f7f4b-af68-4be8-90e0-4b48ea35cc32",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount",
+          "min_value": 0.0,
+          "strict_min": true
+        },
+        "meta": {},
+        "id": "960f39f4-2664-4d5f-93a3-99496c338c15",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "24edd611-eb7b-46ed-a31e-cd65c6004290",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel"
+        },
+        "meta": {},
+        "id": "97d944af-cb16-429c-90de-84aa63baa372",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel",
+          "value_set": [
+            "online",
+            "mobile_app",
+            "store",
+            "partner"
+          ]
+        },
+        "meta": {},
+        "id": "b52a91d0-1e3e-4768-b3d0-084d3d009883",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "e5cdcf60-7401-459c-8f5e-ec8fc92fbe12",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency"
+        },
+        "meta": {},
+        "id": "10ce3df2-8bdc-41bb-b3ac-2b120c6e1b45",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency",
+          "value_set": [
+            "PKR",
+            "USD",
+            "GBP",
+            "EUR"
+          ]
+        },
+        "meta": {},
+        "id": "adc113d5-08d4-42f9-a8ef-0375ba0917c9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "notes",
+          "mostly": 0.0
+        },
+        "meta": {},
+        "id": "974ac25e-c450-4c6b-821a-4e954ba0721e",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 920084,
+        "unexpected_count": 852966,
+        "unexpected_percent": 92.70523126149351,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "25280049_corrupted_data_suite_after_fix",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 23,
+    "successful_expectations": 23,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.15.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260410T192058.879522Z",
+      "pandas_data_fingerprint": "a60700f82e7752ee9c08dc3ef683208f"
+    },
+    "active_batch_definition": {
+      "datasource_name": "assignment3_pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "orders_dataframe_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "726f90c1-b77a-4261-bccf-5320c5cd4b66",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-11T00:20:59.424879+05:00"
+    },
+    "validation_time": "2026-04-10T19:20:59.424879+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

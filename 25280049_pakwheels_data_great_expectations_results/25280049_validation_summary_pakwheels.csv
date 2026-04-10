@@ -1,0 +1,46 @@
+expectation_type,success,unexpected_count,unexpected_percent,partial_unexpected_list
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,False,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,False,3786.0,6.076851465442521,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,False,472.0,0.7576000770440756,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,False,42928.0,68.90308497319508,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,True,7091.0,11.381657089660042,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,True,3.0,0.004815254726975057,"[None, None, None]"
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,True,709.0,1.1380052004751051,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,True,1192.0,1.9132612115180894,"[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]"
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_not_be_null,True,0.0,0.0,[]
+expect_column_values_to_be_unique,True,0.0,0.0,[]
+expect_column_values_to_be_between,True,0.0,0.0,[]
+expect_column_values_to_be_between,False,186.0,0.2985601695051285,"[12905.0, 150.0, 77.4, 60.0, 60.0, 539.0, 60.0, 120.0, 93.0, 66.0, 400.0, 13000.0, 75.0, 60.0, 123.0, 82.0, 100.0, 240.0, 230.0, 95.0]"
+expect_column_values_to_be_between,True,0.0,0.0,[]
+expect_column_values_to_be_between,False,19.0,0.030729419375707587,"[110000000.0, 109000000.0, 109000000.0, 101000000.0, 150000000.0, 102500000.0, 120000000.0, 120000000.0, 105000000.0, 110000000.0, 101000000.0, 110000000.0, 155000000.0, 108000000.0, 107500000.0, 102500000.0, 120000000.0, 165000000.0, 107000000.0]"
+expect_column_values_to_be_between,True,0.0,0.0,[]
+expect_column_values_to_be_between,True,0.0,0.0,[]
+expect_column_values_to_be_in_set,True,0.0,0.0,[]
+expect_column_values_to_be_in_set,True,0.0,0.0,[]
+expect_column_values_to_be_in_set,True,0.0,0.0,[]
+expect_column_values_to_be_in_set,False,5.0,0.0090561663436634,"['Mini Vehicles', 'Mini Vehicles', 'Mini Vehicles', 'Mini Vehicles', 'Mini Vehicles']"

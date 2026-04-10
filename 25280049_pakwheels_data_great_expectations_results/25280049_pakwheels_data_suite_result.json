@@ -1,0 +1,1932 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "addref"
+        },
+        "meta": {},
+        "id": "13587d0a-1ea4-47b9-ab20-b94ca846cb0f",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "addref",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "b874f416-1adc-49a3-9bda-8845a444fea7",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "addref"
+        },
+        "meta": {},
+        "id": "941b8d02-9fdf-41ef-a017-861a6b21bff9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "addref"
+        },
+        "meta": {},
+        "id": "c25f7ddf-079f-4d8a-8fcd-5fceed8d79c4",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "city"
+        },
+        "meta": {},
+        "id": "91c29d0c-8835-416b-adc4-3743a3de2960",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "city",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "5067e7b2-4eca-47db-b7d8-47da38562941",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "city",
+          "mostly": 0.9
+        },
+        "meta": {},
+        "id": "25c2122b-1b64-4269-b5b0-cf4cb04d947e",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "make"
+        },
+        "meta": {},
+        "id": "dc258841-439a-40fe-b7ab-a52f53c30049",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "make",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "b1c8299e-922e-4284-886d-b168ea4d5ade",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "make"
+        },
+        "meta": {},
+        "id": "8983feb0-5eac-4a63-998d-4aeb90f1828f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "model"
+        },
+        "meta": {},
+        "id": "30fdb066-50eb-4079-a2ec-5253d4d76643",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "model",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "cbde64aa-9d89-45be-b782-fb3f4b530693",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "model"
+        },
+        "meta": {},
+        "id": "fa057a6d-e4d0-43eb-ab84-619c17c44ea5",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "year"
+        },
+        "meta": {},
+        "id": "68114e7a-1e24-44c4-8139-e6d008883abe",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "year",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "56d6ab56-f67f-4c68-b33f-17fb4899f565",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "year"
+        },
+        "meta": {},
+        "id": "ef6578fa-c545-49e8-87ea-dc6f25170efb",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 3786,
+        "unexpected_percent": 6.076851465442521,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          16,
+          26,
+          46,
+          47,
+          50,
+          78,
+          115,
+          116,
+          144,
+          147,
+          158,
+          161,
+          167,
+          169,
+          188,
+          206,
+          208,
+          217,
+          221,
+          248
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "year",
+          "min_value": 1980.0,
+          "max_value": 2026.0
+        },
+        "meta": {},
+        "id": "80f2b27f-a726-47d7-a8e1-03e4d473797c",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 3786,
+        "missing_percent": 6.076851465442521,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "year",
+          "min_value": 1970.0,
+          "max_value": 2026.0
+        },
+        "meta": {},
+        "id": "530487c9-3ceb-4c8f-b6d8-d81f541b44c7",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 3786,
+        "missing_percent": 6.076851465442521,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "price"
+        },
+        "meta": {},
+        "id": "ebbc25b3-ae94-4abe-b529-bf5cd8910237",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "price",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "3f3a9919-8473-4d0e-beef-cd1279b363d6",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "price"
+        },
+        "meta": {},
+        "id": "0c3070e4-cdfc-4954-b703-d519daccf4a4",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 472,
+        "unexpected_percent": 0.7576000770440756,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          19,
+          89,
+          184,
+          338,
+          346,
+          472,
+          571,
+          880,
+          957,
+          1029,
+          1197,
+          1321,
+          1409,
+          1428,
+          1448,
+          1503,
+          1592,
+          2295,
+          2989,
+          3093
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "price",
+          "min_value": 50000.0,
+          "max_value": 100000000.0
+        },
+        "meta": {},
+        "id": "87319b85-1ff3-4966-87de-57b4a25c1887",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 19,
+        "unexpected_percent": 0.030729419375707587,
+        "partial_unexpected_list": [
+          110000000.0,
+          109000000.0,
+          109000000.0,
+          101000000.0,
+          150000000.0,
+          102500000.0,
+          120000000.0,
+          120000000.0,
+          105000000.0,
+          110000000.0,
+          101000000.0,
+          110000000.0,
+          155000000.0,
+          108000000.0,
+          107500000.0,
+          102500000.0,
+          120000000.0,
+          165000000.0,
+          107000000.0
+        ],
+        "missing_count": 472,
+        "missing_percent": 0.7576000770440756,
+        "unexpected_percent_total": 0.030496613270842025,
+        "unexpected_percent_nonmissing": 0.030729419375707587,
+        "partial_unexpected_counts": [
+          {
+            "value": 110000000.0,
+            "count": 3
+          },
+          {
+            "value": 120000000.0,
+            "count": 3
+          },
+          {
+            "value": 101000000.0,
+            "count": 2
+          },
+          {
+            "value": 102500000.0,
+            "count": 2
+          },
+          {
+            "value": 109000000.0,
+            "count": 2
+          },
+          {
+            "value": 105000000.0,
+            "count": 1
+          },
+          {
+            "value": 107000000.0,
+            "count": 1
+          },
+          {
+            "value": 107500000.0,
+            "count": 1
+          },
+          {
+            "value": 108000000.0,
+            "count": 1
+          },
+          {
+            "value": 150000000.0,
+            "count": 1
+          },
+          {
+            "value": 155000000.0,
+            "count": 1
+          },
+          {
+            "value": 165000000.0,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          1221,
+          4015,
+          8139,
+          10725,
+          11759,
+          13099,
+          18489,
+          19337,
+          21257,
+          28786,
+          30980,
+          31641,
+          36612,
+          45232,
+          47561,
+          51173,
+          52627,
+          56915,
+          57637
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "price",
+          "min_value": 0.0,
+          "strict_min": true
+        },
+        "meta": {},
+        "id": "9a0b59eb-e3e5-4c0d-ba52-5afc5d4426d2",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 472,
+        "missing_percent": 0.7576000770440756,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "engine",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "1c848d0e-4d5d-4fbd-a6e5-9e1298c3e695",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "engine",
+          "mostly": 0.85
+        },
+        "meta": {},
+        "id": "ace9cc95-cfee-4fdb-b442-89ecef612b3f",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 3,
+        "unexpected_percent": 0.004815254726975057,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          11941,
+          35809,
+          49484
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "engine",
+          "min_value": 600.0,
+          "max_value": 6500.0
+        },
+        "meta": {},
+        "id": "009fa033-cfa1-4b4a-a822-e198a41bd194",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 186,
+        "unexpected_percent": 0.2985601695051285,
+        "partial_unexpected_list": [
+          12905.0,
+          150.0,
+          77.4,
+          60.0,
+          60.0,
+          539.0,
+          60.0,
+          120.0,
+          93.0,
+          66.0,
+          400.0,
+          13000.0,
+          75.0,
+          60.0,
+          123.0,
+          82.0,
+          100.0,
+          240.0,
+          230.0,
+          95.0
+        ],
+        "missing_count": 3,
+        "missing_percent": 0.004815254726975057,
+        "unexpected_percent_total": 0.2985457930724535,
+        "unexpected_percent_nonmissing": 0.2985601695051285,
+        "partial_unexpected_counts": [
+          {
+            "value": 60.0,
+            "count": 4
+          },
+          {
+            "value": 66.0,
+            "count": 1
+          },
+          {
+            "value": 75.0,
+            "count": 1
+          },
+          {
+            "value": 77.4,
+            "count": 1
+          },
+          {
+            "value": 82.0,
+            "count": 1
+          },
+          {
+            "value": 93.0,
+            "count": 1
+          },
+          {
+            "value": 95.0,
+            "count": 1
+          },
+          {
+            "value": 100.0,
+            "count": 1
+          },
+          {
+            "value": 120.0,
+            "count": 1
+          },
+          {
+            "value": 123.0,
+            "count": 1
+          },
+          {
+            "value": 150.0,
+            "count": 1
+          },
+          {
+            "value": 230.0,
+            "count": 1
+          },
+          {
+            "value": 240.0,
+            "count": 1
+          },
+          {
+            "value": 400.0,
+            "count": 1
+          },
+          {
+            "value": 539.0,
+            "count": 1
+          },
+          {
+            "value": 12905.0,
+            "count": 1
+          },
+          {
+            "value": 13000.0,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          50,
+          227,
+          1257,
+          1765,
+          1792,
+          1942,
+          2203,
+          2711,
+          2831,
+          3019,
+          3539,
+          3823,
+          3833,
+          3892,
+          5300,
+          5377,
+          6440,
+          6700,
+          7115,
+          7407
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "mileage",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "bc6aa4ee-aef3-47af-9223-09ed895c2a16",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "mileage",
+          "mostly": 0.8
+        },
+        "meta": {},
+        "id": "4f3ab866-6f57-41bc-95d5-82dee0105485",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "mileage",
+          "min_value": 0.0,
+          "max_value": 1000000.0
+        },
+        "meta": {},
+        "id": "d501b755-7e9d-4a87-a594-110fbab347ce",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "assembly",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "212a670f-e6a5-42ef-8d78-7584434a7b56",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "assembly",
+          "mostly": 0.7
+        },
+        "meta": {},
+        "id": "52aaf578-3035-4c37-8205-485e1d988cd3",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 42928,
+        "unexpected_percent": 68.90308497319508,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          24,
+          26,
+          28,
+          29
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "assembly",
+          "value_set": [
+            "Local",
+            "Imported"
+          ]
+        },
+        "meta": {},
+        "id": "24f7b1d0-9e0e-4b3f-908f-d908ca2bb379",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 42928,
+        "missing_percent": 68.90308497319508,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "body",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "a595e898-2f8e-4f0c-a123-ffda141dab61",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "body",
+          "mostly": 0.8
+        },
+        "meta": {},
+        "id": "0a57d349-104d-44b3-aedd-1d4b02987ade",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 7091,
+        "unexpected_percent": 11.381657089660042,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          18,
+          21,
+          25,
+          37,
+          50,
+          62,
+          85,
+          87,
+          89,
+          91,
+          99,
+          101,
+          104,
+          107,
+          137,
+          140,
+          149,
+          166,
+          169,
+          209
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "body",
+          "value_set": [
+            "Compact hatchback",
+            "Compact sedan",
+            "SUV",
+            "Compact SUV",
+            "Crossover",
+            "Micro Van",
+            "High Roof",
+            "Hatchback",
+            "Double Cabin",
+            "Coupe",
+            "Convertible",
+            "Mini Van",
+            "Van",
+            "Pick Up",
+            "Mini Vehicales",
+            "MPV",
+            "Off-Road Vehicles",
+            "Sedan",
+            "Single Cabin",
+            "Station Wagon",
+            "Truck"
+          ]
+        },
+        "meta": {},
+        "id": "3251cca9-e7a3-4b43-abb0-74de20b0f355",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 5,
+        "unexpected_percent": 0.0090561663436634,
+        "partial_unexpected_list": [
+          "Mini Vehicles",
+          "Mini Vehicles",
+          "Mini Vehicles",
+          "Mini Vehicles",
+          "Mini Vehicles"
+        ],
+        "missing_count": 7091,
+        "missing_percent": 11.381657089660042,
+        "unexpected_percent_total": 0.008025424544958427,
+        "unexpected_percent_nonmissing": 0.0090561663436634,
+        "partial_unexpected_counts": [
+          {
+            "value": "Mini Vehicles",
+            "count": 5
+          }
+        ],
+        "partial_unexpected_index_list": [
+          4792,
+          11988,
+          12607,
+          41388,
+          45173
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "transmission",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "f2cf7c18-f1f3-41f0-9e5e-b104a59bda5c",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "transmission",
+          "mostly": 0.85
+        },
+        "meta": {},
+        "id": "ba56b5c4-274e-4e3e-a360-2b5347b27d11",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "transmission",
+          "value_set": [
+            "Automatic",
+            "Manual"
+          ]
+        },
+        "meta": {},
+        "id": "94eec4ba-3c5d-4536-a167-6494573f6e48",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "fuel",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "abfe80e0-207b-4409-a700-d45f4130712b",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "fuel",
+          "mostly": 0.85
+        },
+        "meta": {},
+        "id": "f9ab3bbb-0051-4c64-b0e5-6e828d651a30",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 709,
+        "unexpected_percent": 1.1380052004751051,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          276,
+          368,
+          682,
+          770,
+          817,
+          968,
+          1085,
+          1154,
+          1251,
+          1257,
+          1299,
+          1347,
+          1363,
+          1545,
+          1584,
+          1765,
+          1778,
+          1792,
+          1819,
+          1845
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "fuel",
+          "value_set": [
+            "Petrol",
+            "Diesel",
+            "Hybrid"
+          ]
+        },
+        "meta": {},
+        "id": "0b8cc7f8-b6a3-4aed-aae6-a3644193392b",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 709,
+        "missing_percent": 1.1380052004751051,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "color",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "15712c5f-9f68-4f64-af27-a654f2349a1e",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "color",
+          "mostly": 0.7
+        },
+        "meta": {},
+        "id": "59d2e327-b160-4885-aa70-94be5478080e",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 1192,
+        "unexpected_percent": 1.9132612115180894,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          49,
+          115,
+          170,
+          184,
+          312,
+          359,
+          386,
+          411,
+          445,
+          456,
+          483,
+          513,
+          545,
+          559,
+          606,
+          668,
+          697,
+          775,
+          802
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "registered",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "5e3c0d42-08f0-4bdf-bf7d-512f3d2136a0",
+        "severity": "warning"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "registered",
+          "mostly": 0.75
+        },
+        "meta": {},
+        "id": "50f6d6ff-1db1-4320-87cb-79898db4e6b3",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "25280049_pakwheels_data_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 45,
+    "successful_expectations": 38,
+    "unsuccessful_expectations": 7,
+    "success_percent": 84.44444444444444
+  },
+  "meta": {
+    "great_expectations_version": "1.15.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260410T192050.393929Z",
+      "pandas_data_fingerprint": "89f0b819f9ab17778e628d52e204cfae"
+    },
+    "active_batch_definition": {
+      "datasource_name": "assignment3_pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "orders_dataframe_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "71370ce5-2045-42c9-a6c3-4a6e188bff07",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-11T00:20:50.832052+05:00"
+    },
+    "validation_time": "2026-04-10T19:20:50.832052+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

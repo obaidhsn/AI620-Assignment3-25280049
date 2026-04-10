@@ -1,0 +1,1240 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id"
+        },
+        "meta": {},
+        "id": "b170aff2-aebf-4e79-bec2-74ecaeae7f66",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "741e44b9-2add-45d8-89c9-c6faf4b46ba3",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_id"
+        },
+        "meta": {},
+        "id": "a63f96b8-7f7e-46ac-a604-0e5919d5ebc1",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 80322,
+        "unexpected_percent": 7.720507664566136,
+        "partial_unexpected_list": [
+          14,
+          44,
+          85,
+          98,
+          101,
+          127,
+          162,
+          90,
+          174,
+          188,
+          199,
+          189,
+          268,
+          290,
+          300,
+          308,
+          326,
+          343,
+          385,
+          420
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 7.720507664566136,
+        "unexpected_percent_nonmissing": 7.720507664566136,
+        "partial_unexpected_counts": [
+          {
+            "value": 14,
+            "count": 1
+          },
+          {
+            "value": 44,
+            "count": 1
+          },
+          {
+            "value": 85,
+            "count": 1
+          },
+          {
+            "value": 90,
+            "count": 1
+          },
+          {
+            "value": 98,
+            "count": 1
+          },
+          {
+            "value": 101,
+            "count": 1
+          },
+          {
+            "value": 127,
+            "count": 1
+          },
+          {
+            "value": 162,
+            "count": 1
+          },
+          {
+            "value": 174,
+            "count": 1
+          },
+          {
+            "value": 188,
+            "count": 1
+          },
+          {
+            "value": 189,
+            "count": 1
+          },
+          {
+            "value": 199,
+            "count": 1
+          },
+          {
+            "value": 268,
+            "count": 1
+          },
+          {
+            "value": 290,
+            "count": 1
+          },
+          {
+            "value": 300,
+            "count": 1
+          },
+          {
+            "value": 308,
+            "count": 1
+          },
+          {
+            "value": 326,
+            "count": 1
+          },
+          {
+            "value": 343,
+            "count": 1
+          },
+          {
+            "value": 385,
+            "count": 1
+          },
+          {
+            "value": 420,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          12,
+          36,
+          67,
+          89,
+          91,
+          112,
+          140,
+          155,
+          158,
+          170,
+          179,
+          239,
+          248,
+          262,
+          272,
+          279,
+          294,
+          307,
+          349,
+          378
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id"
+        },
+        "meta": {},
+        "id": "10d1ef9a-68f9-439d-aadf-e34a76d72829",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "ab3ef9e4-60a7-4cf8-9012-16b513426acb",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "customer_id"
+        },
+        "meta": {},
+        "id": "bf809851-36e6-4318-8481-578be40869d6",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 13007,
+        "unexpected_percent": 1.2502258807426574,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          309,
+          1776,
+          3224,
+          3637,
+          4665,
+          8129,
+          8211,
+          9164,
+          9810,
+          10058,
+          11025,
+          13496,
+          14215,
+          14296,
+          14781,
+          15109,
+          16726,
+          18002,
+          18405,
+          19953
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id"
+        },
+        "meta": {},
+        "id": "ebb7fa8b-b720-49cd-87ba-b1b0492a0af9",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "d180a56f-d302-4864-8efe-2c0674a4a3cc",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "product_id"
+        },
+        "meta": {},
+        "id": "882c69ef-b799-445b-920c-65439a4c768d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 10370,
+        "unexpected_percent": 0.9967588516415281,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          69,
+          309,
+          3869,
+          4192,
+          5870,
+          6601,
+          8850,
+          13176,
+          13496,
+          13977,
+          14215,
+          14296,
+          15109,
+          16726,
+          17756,
+          18002,
+          21006,
+          21165,
+          21326,
+          21487
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_ts",
+          "type_": "datetime64[ns]"
+        },
+        "meta": {},
+        "id": "22f8bf18-c98b-45f6-8eef-c4015092aa2c",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "datetime64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "sale_ts"
+        },
+        "meta": {},
+        "id": "96c492ca-645a-449d-8cf0-e74c2ada6876",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 5163,
+        "unexpected_percent": 0.49626479759163067,
+        "partial_unexpected_list": [
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT",
+          "NaT"
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": "NaT",
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          720,
+          4192,
+          4665,
+          6441,
+          15109,
+          15991,
+          20116,
+          23662,
+          24296,
+          24945,
+          26075,
+          26634,
+          27190,
+          31859,
+          32177,
+          32654,
+          42316,
+          43942,
+          45865,
+          47556
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "quantity",
+          "type_": "int64"
+        },
+        "meta": {},
+        "id": "c3112ffa-4951-41bc-b61a-17d3c26937a2",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "quantity"
+        },
+        "meta": {},
+        "id": "62733c9e-0023-482f-8aa1-d68e434a7be1",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount",
+          "type_": "float64"
+        },
+        "meta": {},
+        "id": "15c80fd3-c418-473d-9f8d-3da1841adf07",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount"
+        },
+        "meta": {},
+        "id": "b1a66cb6-504e-4660-aaa0-e0a39d8a42fa",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "amount",
+          "min_value": 0.0,
+          "strict_min": true
+        },
+        "meta": {},
+        "id": "f70ae3d4-1612-4e59-affb-1721cf923501",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 19634,
+        "unexpected_percent": 1.8872095750366216,
+        "partial_unexpected_list": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -369.19,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -94.53,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -185.86,
+          -423.45,
+          0.0,
+          0.0
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 1.8872095750366216,
+        "unexpected_percent_nonmissing": 1.8872095750366216,
+        "partial_unexpected_counts": [
+          {
+            "value": 0.0,
+            "count": 16
+          },
+          {
+            "value": -423.45,
+            "count": 1
+          },
+          {
+            "value": -369.19,
+            "count": 1
+          },
+          {
+            "value": -185.86,
+            "count": 1
+          },
+          {
+            "value": -94.53,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          71,
+          72,
+          150,
+          235,
+          236,
+          310,
+          311,
+          390,
+          476,
+          477,
+          636,
+          637,
+          638,
+          883,
+          885,
+          1048,
+          1126,
+          1286,
+          1292,
+          1367
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "d06a506c-2899-4eba-b1d9-570b74bc6695",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel"
+        },
+        "meta": {},
+        "id": "fe814a64-dffe-4de0-be40-6e64dd1bf30e",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 7887,
+        "unexpected_percent": 0.758094220144333,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3224,
+          4665,
+          11025,
+          12048,
+          13977,
+          14781,
+          17756,
+          18002,
+          20683,
+          21165,
+          22047,
+          23177,
+          24543,
+          24945,
+          26232,
+          31460,
+          32177,
+          36595,
+          39103,
+          39673
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "channel",
+          "value_set": [
+            "online",
+            "mobile_app",
+            "store",
+            "partner"
+          ]
+        },
+        "meta": {},
+        "id": "d61985f5-83a9-4f32-9ff5-71d59bac5cd8",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 52472,
+        "unexpected_percent": 5.08210773037865,
+        "partial_unexpected_list": [
+          "N/A",
+          "unknown",
+          "N/A",
+          "",
+          "unknown",
+          "unknown",
+          "N/A",
+          "",
+          "unknown",
+          "",
+          "unknown",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "N/A",
+          "",
+          "",
+          "N/A"
+        ],
+        "missing_count": 7887,
+        "missing_percent": 0.758094220144333,
+        "unexpected_percent_total": 5.043580565413141,
+        "unexpected_percent_nonmissing": 5.08210773037865,
+        "partial_unexpected_counts": [
+          {
+            "value": "",
+            "count": 10
+          },
+          {
+            "value": "N/A",
+            "count": 5
+          },
+          {
+            "value": "unknown",
+            "count": 5
+          }
+        ],
+        "partial_unexpected_index_list": [
+          69,
+          309,
+          720,
+          1776,
+          3637,
+          3869,
+          4192,
+          5870,
+          6441,
+          6601,
+          8129,
+          8211,
+          8611,
+          8850,
+          9164,
+          9810,
+          10058,
+          12854,
+          13176,
+          13496
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "85869574-c9c7-4983-803c-b66f947a6aa6",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency"
+        },
+        "meta": {},
+        "id": "9d0cae08-1c7b-4521-8678-12bd09d16c69",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "currency",
+          "value_set": [
+            "PKR",
+            "USD",
+            "GBP",
+            "EUR"
+          ]
+        },
+        "meta": {},
+        "id": "a4b31caa-c668-4ede-af27-118043564a56",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 37620,
+        "unexpected_percent": 3.6160142718181576,
+        "partial_unexpected_list": [
+          "$138.91",
+          "57,93",
+          "64.36 GBP",
+          "$18.86",
+          "$39.70",
+          "195,03",
+          "171,87",
+          "$112.18",
+          "21,42",
+          "$127.19",
+          "82,67",
+          "104,61",
+          "$82.22",
+          "$71.52",
+          "81.11 GBP",
+          "$427.75",
+          "31,02",
+          "58.21 GBP",
+          "75.15 EUR",
+          "$98.27"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 3.6160142718181576,
+        "unexpected_percent_nonmissing": 3.6160142718181576,
+        "partial_unexpected_counts": [
+          {
+            "value": "$112.18",
+            "count": 1
+          },
+          {
+            "value": "$127.19",
+            "count": 1
+          },
+          {
+            "value": "$138.91",
+            "count": 1
+          },
+          {
+            "value": "$18.86",
+            "count": 1
+          },
+          {
+            "value": "$39.70",
+            "count": 1
+          },
+          {
+            "value": "$427.75",
+            "count": 1
+          },
+          {
+            "value": "$71.52",
+            "count": 1
+          },
+          {
+            "value": "$82.22",
+            "count": 1
+          },
+          {
+            "value": "$98.27",
+            "count": 1
+          },
+          {
+            "value": "104,61",
+            "count": 1
+          },
+          {
+            "value": "171,87",
+            "count": 1
+          },
+          {
+            "value": "195,03",
+            "count": 1
+          },
+          {
+            "value": "21,42",
+            "count": 1
+          },
+          {
+            "value": "31,02",
+            "count": 1
+          },
+          {
+            "value": "57,93",
+            "count": 1
+          },
+          {
+            "value": "58.21 GBP",
+            "count": 1
+          },
+          {
+            "value": "64.36 GBP",
+            "count": 1
+          },
+          {
+            "value": "75.15 EUR",
+            "count": 1
+          },
+          {
+            "value": "81.11 GBP",
+            "count": 1
+          },
+          {
+            "value": "82,67",
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          77,
+          78,
+          79,
+          155,
+          156,
+          157,
+          316,
+          317,
+          396,
+          397,
+          398,
+          481,
+          562,
+          642,
+          643,
+          724,
+          807,
+          808,
+          890,
+          973
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "assignment3_pandas_source-orders_dataframe_asset",
+          "column": "notes",
+          "mostly": 0.0
+        },
+        "meta": {},
+        "id": "0dee18be-5acf-4cbe-9ec9-e2f020099839",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 1040372,
+        "unexpected_count": 898699,
+        "unexpected_percent": 86.38246704063548,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "25280049_corrupted_data_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 23,
+    "successful_expectations": 13,
+    "unsuccessful_expectations": 10,
+    "success_percent": 56.52173913043478
+  },
+  "meta": {
+    "great_expectations_version": "1.15.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260410T192045.369067Z",
+      "pandas_data_fingerprint": "7c185c7fb5bb46d20848f242a7cc92fa"
+    },
+    "active_batch_definition": {
+      "datasource_name": "assignment3_pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "orders_dataframe_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "3fc93455-aac6-43e3-acae-4b76f4e4c8a0",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-11T00:20:46.900427+05:00"
+    },
+    "validation_time": "2026-04-10T19:20:46.900427+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}
